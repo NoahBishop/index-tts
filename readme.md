@@ -64,8 +64,8 @@ modelscope download --model IndexTeam/IndexTTS-2 --local_dir checkpoints
 modelscope download --model facebook/w2v-bert-2.0 --local_dir models/facebook/w2v-bert-2.0
 modelscope download --model amphion/MaskGCT semantic_codec/model.safetensors --local_dir models/amphion/MaskGCT
 modelscope download --model iic/speech_campplus_sv_zh-cn_16k-common campplus_cn_common.bin --local_dir models/iic/speech_campplus_sv_zh-cn_16k-common
-modelscope download --model nv-community/bigvgan_v2_22khz_80band_256x/bigvgan_generator.pt --local_dir models/nv-community/bigvgan_v2_22khz_80band_256x
-modelscope download --model nv-community/bigvgan_v2_22khz_80band_256x/config.json --local_dir models/nv-community/bigvgan_v2_22khz_80band_256x
+modelscope download --model nv-community/bigvgan_v2_22khz_80band_256x bigvgan_generator.pt --local_dir models/nv-community/bigvgan_v2_22khz_80band_256x
+modelscope download --model nv-community/bigvgan_v2_22khz_80band_256x config.json --local_dir models/nv-community/bigvgan_v2_22khz_80band_256x
 ```
 
 run:
