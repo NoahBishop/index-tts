@@ -26,6 +26,7 @@ torchaudio==2.8.*
 tqdm>=4.67.1
 transformers==4.52.1
 gradio>=5.44.1
+einops==0.8.1
 
 wetext>=0.0.9; sys_platform != 'linux'
 WeTextProcessing; sys_platform == 'linux'
