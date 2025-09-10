@@ -50,10 +50,14 @@ conda install -c conda-forge ffmpeg
 ```
 
 clone project and setup env
-
+Note: because 'pip install torch' will install cpu version now
+We use '-f https://mirrors.aliyun.com/pytorch-wheels/youcudaversion' find gpu version torch
+use 
 ```bash
 git clone https://github.com/NoahBishop/index-tts.git
 cd index-tts
+pip install torch -f https://mirrors.aliyun.com/pytorch-wheels/cu126/
+pip install torchaudio -f https://mirrors.aliyun.com/pytorch-wheels/cu126/
 pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com
 ```
 
