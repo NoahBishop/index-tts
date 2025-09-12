@@ -22,6 +22,7 @@
   "情感向量之和不能超过1.5，请调整后重试。": "The sum of the emotion vectors cannot exceed 1.5. Please adjust and try again.",
   "音色参考音频": "Voice Reference",
   "音频生成": "Speech Synthesis",
+  "音色数据库管理" : "Voice Database",
   "文本": "Text",
   "生成语音": "Synthesize",
   "生成结果": "Synthesis Result",
